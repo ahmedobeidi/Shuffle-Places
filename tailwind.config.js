@@ -4,7 +4,20 @@ module.exports = {
     "./index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'fond': "#D3D1C2",
+      },
+      fontFamily: {
+        "": "",
+      },
+      fontSize: {
+        "": "",
+      },
+      borderRadius: {
+        "lg": "30px"
+      }
+    },
   },
   plugins: [],
 }
