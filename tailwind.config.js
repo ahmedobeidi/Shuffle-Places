@@ -18,7 +18,13 @@ module.exports = {
         "Kdam": ["kdam Thmor Pro", 'Roboto'],
       },
       borderRadius: {
+<<<<<<< HEAD
         "header-lg": "50px"
+=======
+        "header-lg": "50px",
+        "students": "30px",
+        "random-button": "50px"
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
       }
     },
   },

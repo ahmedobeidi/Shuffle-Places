@@ -570,6 +570,7 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .ml-4{
   margin-left: 1rem;
@@ -588,10 +589,17 @@ video {
 }
 
 >>>>>>> nav-visuel
+=======
+.mt-\[60px\]{
+  margin-top: 60px;
+}
+
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .flex{
   display: flex;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .h-\[10vh\]{
   height: 10vh;
@@ -599,10 +607,18 @@ video {
 .h-\[12vh\]{
   height: 12vh;
 >>>>>>> nav-visuel
+=======
+.h-\[12vh\]{
+  height: 12vh;
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 }
 
-.h-\[90vh\]{
-  height: 90vh;
+.h-\[130px\]{
+  height: 130px;
+}
+
+.h-\[88vh\]{
+  height: 88vh;
 }
 
 <<<<<<< HEAD
@@ -636,12 +652,12 @@ video {
   width: 50%;
 }
 
-.w-\[20\%\]{
-  width: 20%;
+.w-\[15\%\]{
+  width: 15%;
 }
 
-.w-\[70\%\]{
-  width: 70%;
+.w-\[700px\]{
+  width: 700px;
 }
 
 .w-\[80\%\]{
@@ -722,6 +738,7 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .rounded-b-lg{
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -730,6 +747,18 @@ video {
 =======
 .gap-6{
   gap: 1.5rem;
+=======
+.gap-10{
+  gap: 2.5rem;
+}
+
+.rounded-random-button{
+  border-radius: 50px;
+}
+
+.rounded-students{
+  border-radius: 30px;
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 }
 
 .rounded-b-header-lg{
@@ -737,10 +766,18 @@ video {
   border-bottom-left-radius: 50px;
 }
 
+<<<<<<< HEAD
 >>>>>>> nav-visuel
 .bg-black{
+=======
+.border{
+  border-width: 1px;
+}
+
+.bg-blue-vert{
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(1 147 135 / var(--tw-bg-opacity, 1));
 }
 
 .bg-fond{
@@ -748,6 +785,7 @@ video {
   background-color: rgb(211 209 194 / var(--tw-bg-opacity, 1));
 }
 
+<<<<<<< HEAD
 .bg-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
@@ -759,6 +797,8 @@ video {
 }
 
 <<<<<<< HEAD
+=======
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .bg-green-900{
   --tw-bg-opacity: 1;
   background-color: rgb(20 83 45 / var(--tw-bg-opacity, 1));
@@ -776,6 +816,11 @@ video {
 .to-blue-vert-fonce{
   --tw-gradient-to: #003632 var(--tw-gradient-to-position);
 >>>>>>> nav-visuel
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .text-center{
@@ -807,16 +852,24 @@ video {
 >>>>>>> nav-visuel
 }
 
+.text-\[32px\]{
+  font-size: 32px;
+}
+
 .text-\[50px\]{
   font-size: 50px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .text-\[64px\]{
   font-size: 64px;
 }
 
+<<<<<<< HEAD
 .leading-3{
   line-height: .75rem;
 }
@@ -834,6 +887,8 @@ video {
 }
 
 >>>>>>> nav-visuel
+=======
+>>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
