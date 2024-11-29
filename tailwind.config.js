@@ -10,8 +10,8 @@ module.exports = {
         'blue-vert': "#019387",
         'blue-vert-fonce': '#003632',
         'blue-fonce': '#011225',
-        'clair': '#1DDDBA'
-        
+        'clair': '#1DDDBA',
+        'color-home': '#6C6767',
       },
       fontFamily: {
         "Karantina": ['Karantina', 'Roboto'],
@@ -29,6 +29,8 @@ module.exports = {
         "Rectangle": "url('../Images/Rectangle .png')",
         "Rectangle-col": "url('../Images/Rectangle-col.png')",
         "Rectangle-row": "url('../Images/Rectangle-row.png')",
+        'bg-home': "url('/Images/istockphoto-1467601512-612x612.jpg')",
+
       }
     },
   },
