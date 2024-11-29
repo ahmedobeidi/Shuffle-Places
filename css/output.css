@@ -614,6 +614,10 @@ video {
   height: 123px;
 }
 
+.h-\[130px\]{
+  height: 130px;
+}
+
 .h-\[138px\]{
   height: 138px;
 }
@@ -630,10 +634,6 @@ video {
   height: 366px;
 }
 
-.h-\[70px\]{
-  height: 70px;
-}
-
 .h-\[86vh\]{
   height: 86vh;
 }
@@ -646,8 +646,8 @@ video {
   height: 100vh;
 }
 
-.h-\[130px\]{
-  height: 130px;
+.h-\[70px\]{
+  height: 70px;
 }
 
 .w-\[123px\]{
@@ -666,12 +666,12 @@ video {
   width: 150px;
 }
 
-.w-\[350px\]{
-  width: 350px;
-}
-
 .w-\[355px\]{
   width: 355px;
+}
+
+.w-\[700px\]{
+  width: 700px;
 }
 
 .w-\[90\%\]{
@@ -682,8 +682,8 @@ video {
   width: auto;
 }
 
-.w-\[700px\]{
-  width: 700px;
+.w-\[350px\]{
+  width: 350px;
 }
 
 .-translate-y-1\/2{
@@ -901,16 +901,16 @@ video {
   font-family: kdam Thmor Pro, Roboto;
 }
 
+.text-\[28px\]{
+  font-size: 28px;
+}
+
 .text-\[32px\]{
   font-size: 32px;
 }
 
 .text-\[40px\]{
   font-size: 40px;
-}
-
-.text-\[47px\]{
-  font-size: 47px;
 }
 
 .text-\[54px\]{
@@ -921,8 +921,8 @@ video {
   font-size: 64px;
 }
 
-.text-\[28px\]{
-  font-size: 28px;
+.text-\[47px\]{
+  font-size: 47px;
 }
 
 .leading-none{
