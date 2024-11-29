@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,92 +8,99 @@
     <link rel="stylesheet" href="./css/output.css">
     <script defer src="./js/script.js"></script>
 </head>
+
 <body>
 
     <div class="relative h-screen">
         <!-- Div avec la couleur Bg et opacité-->
         <div class="absolute inset-0 bg-color-home opacity-70 z-0"></div>
-        
+
         <!-- Div avec l'image et opacité-->
         <div class="absolute inset-0 bg-bg-home bg-cover bg-center opacity-30 z-0"></div>
-        
+
         <!-- NAV- bar-->
         <div class="relative z-10">
-          <header class="bg-gradient-to-r from-clair to-blue-vert-fonce h-[14vh] flex items-center rounded-b-header-lg justify-between px-[5%] font-Karantina text-white">
-            <h1 class="w-[50px] leading-none text-[64px] flex text-center">Shuffle Places</h1>
-            <div class="flex flex-row gap-[20%] text-right text-[54px] pr-[20%]">
-              <a href="#home" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Home</a>
-              <a href="#studentsSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Placer</a>
-              <a href="#planSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Plan</a>
-            </div>
-          </header>
-      
-          <main class="flex flex-col">
+            <header
+                class="bg-gradient-to-r from-clair to-blue-vert-fonce h-[14vh] flex items-center rounded-b-header-lg justify-between px-[5%] font-Karantina text-white">
+                <h1 class="w-[50px] leading-none text-[64px] flex text-center">Shuffle Places</h1>
+                <div class="flex flex-row gap-[20%] text-right text-[54px] pr-[20%]">
+                    <a href="#home" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Home</a>
+                    <a href="#studentsSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Placer</a>
+                    <a href="#planSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Plan</a>
+                </div>
+            </header>
 
-            <!-- SECTION 1 / Home -->
-            <section class="h-[86vh] flex flex-row justify-center" id="home">
-              <div class="w-[80%] flex flex-row justify-between">
-                <div class="w-1/2 text-[50px]">Logo</div>
-                <div class="text-[50px]">Image</div>
-              </div>
-            </section>
-          </main>
+            
+
+                <!-- SECTION 1 / Home -->
+                <section class="h-[86vh] flex flex-row justify-center items-center" id="home">
+                    <div class="">
+                        <img src="/Images/Logo.png" alt="Logo" class="mr-9">
+                    </div>
+                    <div>
+                        <img src="Images/triangle-text.png"
+                            alt="Text-décoration - Placer alétoirement vos enemis et vos amis" class="flex flex-col justify-end">
+                    </div>
+                </section>
         </div>
-      </div>
-      
+    </div>
 
 
-        <!-- Students Section -->
-        <section class="bg-fond" id="studentsSection">
-            <div class="flex flex-col items-center">
-                <h2 class="w-[90%] text-[64px] font-Karantina">Les personnes à placer:</h2>
+
+    <!-- Students Section -->
+    <section class="bg-fond" id="studentsSection">
+        <div class="flex flex-col items-center">
+            <h2 class="w-[90%] text-[64px] font-Karantina">Les personnes à placer:</h2>
+        </div>
+
+        <div class="mt-10 flex flex-row justify-center gap-10 font-Kdam text-[32px]">
+
+            <div class="w-[15%] py-5 bg-fond border rounded-students text-center">
+                <p>Ahmed</p>
+                <p>Ali</p>
+                <p>Clément</p>
+                <p>Hamza</p>
+                <p>Jérémy</p>
             </div>
-
-            <div class="mt-10 flex flex-row justify-center gap-10 font-Kdam text-[32px]">
-
-                <div class="w-[15%] py-5 bg-fond border rounded-students text-center">
-                    <p>Ahmed</p>
-                    <p>Ali</p>
-                    <p>Clément</p>
-                    <p>Hamza</p>
-                    <p>Jérémy</p>
-                </div>
-                <div class="w-[15%] py-5 bg-fond border rounded-students text-center">
-                    <p>Karl</p>
-                    <p>Mathias</p>
-                    <p>Marion</p>
-                    <p>Mohand</p>
-                    <p>Nadir</p>
-                </div>
-                <div class="w-[15%] py-5 bg-fond border rounded-students text-center">
-                    <p>Naïm</p>
-                    <p>Naïm D.</p>
-                    <p>Simon</p>
-                    <p>Sirène</p>
-                    <p>Elodie</p>
-                </div>
+            <div class="w-[15%] py-5 bg-fond border rounded-students text-center">
+                <p>Karl</p>
+                <p>Mathias</p>
+                <p>Marion</p>
+                <p>Mohand</p>
+                <p>Nadir</p>
             </div>
-
-            <div class="mt-[60px] text-[64px] flex flex-row justify-center">
-                <a href="#" class="bg-blue-vert w-[700px] h-[130px] flex flex-row justify-center items-center rounded-random-button">Placer aléatoirement</a>
-             </div>
-        </section>
-
-        <!-- Plan Section -->
-        <section class="bg-fond" id="planSection">
-            <div class="flex flex-col items-center">
-                <h2 class="w-[90%] text-[64px] font-Karantina">Le Plan</h2>
+            <div class="w-[15%] py-5 bg-fond border rounded-students text-center">
+                <p>Naïm</p>
+                <p>Naïm D.</p>
+                <p>Simon</p>
+                <p>Sirène</p>
+                <p>Elodie</p>
             </div>
-                
-            <div class="flex flex-row items-center">
-                <div class="w-[90%]">
-                    <div>Line 1</div>
-                    <div>Line 2 + The Image</div>
-                    <div>Line 3</div>
-                </div>
+        </div>
+
+        <div class="mt-[60px] text-[64px] flex flex-row justify-center">
+            <a href="#"
+                class="bg-blue-vert w-[700px] h-[130px] flex flex-row justify-center items-center rounded-random-button">Placer
+                aléatoirement</a>
+        </div>
+    </section>
+
+    <!-- Plan Section -->
+    <section class="bg-fond" id="planSection">
+        <div class="flex flex-col items-center">
+            <h2 class="w-[90%] text-[64px] font-Karantina">Le Plan</h2>
+        </div>
+
+        <div class="flex flex-row items-center">
+            <div class="w-[90%]">
+                <div>Line 1</div>
+                <div>Line 2 + The Image</div>
+                <div>Line 3</div>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
-    
+
 </body>
+
 </html>
