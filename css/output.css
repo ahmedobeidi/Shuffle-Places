@@ -558,85 +558,20 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
-=======
-.m-4{
-  margin: 1rem;
-}
-
->>>>>>> nav-visuel
 .mt-10{
   margin-top: 2.5rem;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.ml-4{
-  margin-left: 1rem;
-}
-
-.ml-1\.5{
-  margin-left: 0.375rem;
-}
-
-.ml-1{
-  margin-left: 0.25rem;
-}
-
-.ml-10{
-  margin-left: 2.5rem;
-}
-
->>>>>>> nav-visuel
-=======
 .mt-\[60px\]{
   margin-top: 60px;
 }
 
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .flex{
   display: flex;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.h-\[10vh\]{
-  height: 10vh;
-=======
-.h-\[12vh\]{
-  height: 12vh;
->>>>>>> nav-visuel
-=======
-.h-\[12vh\]{
-  height: 12vh;
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
-}
-
 .h-\[130px\]{
   height: 130px;
-}
-
-.h-\[88vh\]{
-  height: 88vh;
-}
-
-<<<<<<< HEAD
-=======
-.h-\[0vh\]{
-  height: 0vh;
-}
-
-.h-\[80vh\]{
-  height: 80vh;
-}
-
-.h-\[14vh\]{
-  height: 14vh;
-}
-
-.h-\[15vh\]{
-  height: 15vh;
 }
 
 .h-\[16vh\]{
@@ -647,13 +582,16 @@ video {
   height: 84vh;
 }
 
->>>>>>> nav-visuel
 .w-1\/2{
   width: 50%;
 }
 
 .w-\[15\%\]{
   width: 15%;
+}
+
+.w-\[50px\]{
+  width: 50px;
 }
 
 .w-\[700px\]{
@@ -668,41 +606,6 @@ video {
   width: 90%;
 }
 
-<<<<<<< HEAD
-=======
-.w-\[\]{
-  width: ;
-}
-
-.w-\[50\]{
-  width: 50;
-}
-
-.w-\[50px\]{
-  width: 50px;
-}
-
-.w-\[64px\]{
-  width: 64px;
-}
-
-.w-\[45px\]{
-  width: 45px;
-}
-
-.w-\[42px\]{
-  width: 42px;
-}
-
-.w-\[px\]{
-  width: px;
-}
-
-.w-\[43px\]{
-  width: 43px;
-}
-
->>>>>>> nav-visuel
 .flex-row{
   flex-direction: row;
 }
@@ -711,24 +614,10 @@ video {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
-.place-items-end{
-  place-items: end;
-}
-
->>>>>>> nav-visuel
 .items-center{
   align-items: center;
 }
 
-<<<<<<< HEAD
-=======
-.justify-end{
-  justify-content: flex-end;
-}
-
->>>>>>> nav-visuel
 .justify-center{
   justify-content: center;
 }
@@ -737,19 +626,12 @@ video {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.rounded-b-lg{
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-}
-
-=======
-.gap-6{
-  gap: 1.5rem;
-=======
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .rounded-random-button{
@@ -758,7 +640,6 @@ video {
 
 .rounded-students{
   border-radius: 30px;
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 }
 
 .rounded-b-header-lg{
@@ -766,16 +647,11 @@ video {
   border-bottom-left-radius: 50px;
 }
 
-<<<<<<< HEAD
->>>>>>> nav-visuel
-.bg-black{
-=======
 .border{
   border-width: 1px;
 }
 
 .bg-blue-vert{
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
   --tw-bg-opacity: 1;
   background-color: rgb(1 147 135 / var(--tw-bg-opacity, 1));
 }
@@ -785,24 +661,6 @@ video {
   background-color: rgb(211 209 194 / var(--tw-bg-opacity, 1));
 }
 
-<<<<<<< HEAD
-.bg-gray-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 101 52 / var(--tw-bg-opacity, 1));
-}
-
-<<<<<<< HEAD
-=======
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
-.bg-green-900{
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 83 45 / var(--tw-bg-opacity, 1));
-=======
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -815,7 +673,6 @@ video {
 
 .to-blue-vert-fonce{
   --tw-gradient-to: #003632 var(--tw-gradient-to-position);
->>>>>>> nav-visuel
 }
 
 .py-5{
@@ -827,18 +684,6 @@ video {
   text-align: center;
 }
 
-<<<<<<< HEAD
-.font-Karantina{
-  font-family: Karantina, Roboto;
-}
-
-.font-Kdam{
-  font-family: kdam Thmor Pro, Roboto;
-}
-
-.text-\[30px\]{
-  font-size: 30px;
-=======
 .text-right{
   text-align: right;
 }
@@ -849,7 +694,6 @@ video {
 
 .font-Kdam{
   font-family: kdam Thmor Pro, Roboto;
->>>>>>> nav-visuel
 }
 
 .text-\[32px\]{
@@ -860,35 +704,14 @@ video {
   font-size: 50px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .text-\[64px\]{
   font-size: 64px;
-}
-
-<<<<<<< HEAD
-.leading-3{
-  line-height: .75rem;
-}
-
-.leading-7{
-  line-height: 1.75rem;
-}
-
-.leading-9{
-  line-height: 2.25rem;
 }
 
 .leading-none{
   line-height: 1;
 }
 
->>>>>>> nav-visuel
-=======
->>>>>>> cb88d81f77ff6edc4b7915523513121b3e6e58c7
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
