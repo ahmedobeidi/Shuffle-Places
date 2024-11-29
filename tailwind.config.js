@@ -21,7 +21,7 @@ module.exports = {
         "header-lg": "50px",
         "students": "30px",
         "random-button": "50px"
-      },
+      }
     },
   },
   plugins: [],
