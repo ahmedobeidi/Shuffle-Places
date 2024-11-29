@@ -21,6 +21,14 @@ module.exports = {
         "header-lg": "50px",
         "students": "30px",
         "random-button": "50px"
+      },
+      backgroundImage: {
+        "Chair-down": "url('../Images/Chair-down.png')",
+        'Chair-left': "url('../Images/chair-left.png')",
+        "Chair-up": "url('../Images/Chair-up.png')",
+        "Rectangle": "url('../Images/Rectangle .png')",
+        "Rectangle-col": "url('../Images/Rectangle-col.png')",
+        "Rectangle-row": "url('../Images/Rectangle-row.png')",
       }
     },
   },
