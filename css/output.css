@@ -602,6 +602,10 @@ video {
   margin-top: 5rem;
 }
 
+.mt-\[60px\]{
+  margin-top: 60px;
+}
+
 .flex{
   display: flex;
 }
@@ -642,6 +646,10 @@ video {
   height: 100vh;
 }
 
+.h-\[130px\]{
+  height: 130px;
+}
+
 .w-\[123px\]{
   width: 123px;
 }
@@ -672,6 +680,10 @@ video {
 
 .w-auto{
   width: auto;
+}
+
+.w-\[700px\]{
+  width: 700px;
 }
 
 .-translate-y-1\/2{
@@ -907,6 +919,10 @@ video {
 
 .text-\[64px\]{
   font-size: 64px;
+}
+
+.text-\[28px\]{
+  font-size: 28px;
 }
 
 .leading-none{
