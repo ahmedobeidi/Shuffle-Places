@@ -1,191 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shuffle Places</title>
-    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/output.css" />
     <script defer src="./js/script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="relative h-screen">
-        <!-- Couleur avec opacité -->
-        <div class="absolute inset-0 bg-color-home opacity-70 z-0"></div>
-      
-        <!-- Image avec opacité -->
-        <div class="absolute inset-0 bg-bg-home bg-cover bg-center opacity-30 z-0"></div>
-      
-        <!-- NAV-bar et contenu -->
-        <header
-        class="bg-gradient-to-r from-clair to-blue-vert-fonce h-[14vh] flex items-center rounded-b-header-lg justify-between px-[5%] font-Karantina text-white relative z-10">
-        
+      <!-- Couleur avec opacité -->
+      <div class="absolute inset-0 bg-color-home opacity-70 z-0"></div>
+
+      <!-- Image avec opacité -->
+      <div
+        class="absolute inset-0 bg-bg-home bg-cover bg-center opacity-30 z-0"
+      ></div>
+
+      <!-- NAV-bar et contenu -->
+      <header
+        class="bg-gradient-to-r from-clair to-blue-vert-fonce h-[14vh] flex items-center rounded-b-header-lg justify-between px-[5%] font-Karantina text-white relative z-10"
+      >
         <!-- Titre isolé avec un alignement spécifique -->
         <div class="text-center">
           <h1 class="leading-none text-[64px]">
-            Shuffle<br>
+            Shuffle<br />
             <span>- Places -</span>
           </h1>
         </div>
-        
+
         <!-- Navigation -->
         <div class="flex flex-row gap-[20%] text-right text-[54px] pr-[20%]">
-          <a href="#home" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Home</a>
-          <a href="#studentsSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Placer</a>
-          <a href="#planSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Plan</a>
+          <a href="#home" class="hover:bg-blue-vert-fonce px-[20%] rounded-full"
+            >Home</a
+          >
+          <a
+            href="#studentsSection"
+            class="hover:bg-blue-vert-fonce px-[20%] rounded-full"
+            >Placer</a
+          >
+          <a
+            href="#planSection"
+            class="hover:bg-blue-vert-fonce px-[20%] rounded-full"
+            >Plan</a
+          >
         </div>
       </header>
-      
-    
-        <main class="relative z-10">
-            <!-- SECTION 1 / Home -->
-            <section class="h-[86vh] relative" id="home">
 
-                <div class="absolute left-0 top-1/2 transform -translate-y-1/2">
-                    <img src="/Images/Logo.png" alt="Logo" class="h-auto w-auto">
-                </div>
-    
-                <div class="absolute right-0">
-                    <img src="/Images/triangle-text.png" alt="Placer aléatoirement vos ennemis et vos amis" class="h-auto w-auto">
-                </div>
-            </section>
-        </main>
+      <main class="relative z-10">
+        <!-- SECTION 1 / Home -->
+        <section class="h-[86vh] relative" id="home">
+          <div class="absolute left-0 top-1/2 transform -translate-y-1/2">
+            <img src="/Images/Logo.png" alt="Logo" class="h-auto w-auto" />
+          </div>
+
+          <div class="absolute right-0">
+            <img
+              src="/Images/triangle-text.png"
+              alt="Placer aléatoirement vos ennemis et vos amis"
+              class="h-auto w-auto"
+            />
+          </div>
+        </section>
+      </main>
     </div>
-    
 
+    <!-- Students Section -->
+    <section class="bg-fond py-[5rem]" id="studentsSection">
+      <div class="flex flex-col items-center">
+        <h2 class="w-[90%] text-blue-fonce text-[64px] font-Karantina">
+          Les personnes à placer:
+        </h2>
+      </div>
+      <div
+        class="mt-10 flex flex-row justify-center gap-10 font-Kdam text-[32px] mb-[60px]"
+      >
+        <div
+          class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center"
+        >
+          <p>Ahmed</p>
+          <p>Ali</p>
+          <p>Clément</p>
+          <p>Hamza</p>
+          <p>Jérémy</p>
+        </div>
+        <div
+          class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center"
+        >
+          <p>Karl</p>
+          <p>Mathias</p>
+          <p>Marion</p>
+          <p>Mohand</p>
+          <p>Nadir</p>
+        </div>
+        <div
+          class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center"
+        >
+          <p>Naïm</p>
+          <p>Naïm D.</p>
+          <p>Simon</p>
+          <p>Sirène</p>
+          <p>Elodie</p>
+        </div>
+      </div>
+      <div class="mt-[60px] text-[64px] flex flex-row justify-center">
+        <a
+          id="randomButton"
+          href="#"
+          class="bg-blue-vert text-blue-fonce text-[47px] font-Karantina w-[350px] h-[70px] flex flex-row justify-center items-center drop-shadow-lg rounded-random-button hover:bg-blue-vert-fonce hover:text-fond"
+          >Placer aléatoirement</a
+        >
+      </div>
+    </section>
 
-        <!-- Students Section -->
-        <section class="bg-fond py-[5rem]" id="studentsSection">
-            <div class="flex flex-col items-center">
-                <h2 class="w-[90%] text-blue-fonce text-[64px] font-Karantina">Les personnes à placer:</h2>
+    <!-- Plan Section -->
+    <section class="bg-fond" id="planSection">
+      <div class="flex flex-col items-center">
+        <h2 class="w-[90%] text-blue-fonce text-[64px] font-Karantina">
+          Le Plan
+        </h2>
+      </div>
+
+      <div class="flex flex-row justify-center">
+        <!-- Col 1 -->
+        <div class="flex flex-row items-center gap-5">
+          <div class="flex flex-col gap-[60px]">
+            <div
+              class="bg-Chair-left w-[138px] h-[123px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+              id="7"
+            ></div>
+            <div
+              class="bg-Chair-left w-[138px] h-[123px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+              id="8"
+            ></div>
+            <div
+              class="bg-Chair-left w-[138px] h-[123px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+              id="9"
+            ></div>
+          </div>
+          <div class="flex flex-col">
+            <div class="bg-Rectangle-col w-[150px] h-[366px]"></div>
+            <div class="bg-Rectangle w-[150px] h-[155px]"></div>
+          </div>
+        </div>
+        <!-- Col 2 -->
+        <div class="flex flex-col gap-[13.2rem]">
+          <div class="flex flex-col gap-5">
+            <div class="flex flex-row justify-center gap-10">
+              <div
+                class="bg-Chair-up w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="6"
+              ></div>
+              <div
+                class="bg-Chair-up w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="5"
+              ></div>
             </div>
-            <div class="mt-10 flex flex-row justify-center gap-10 font-Kdam text-[32px] mb-[60px]">
-                <div class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center">
-                    <p>Ahmed</p>
-                    <p>Ali</p>
-                    <p>Clément</p>
-                    <p>Hamza</p>
-                    <p>Jérémy</p>
-                </div>
-                <div class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center">
-                    <p>Karl</p>
-                    <p>Mathias</p>
-                    <p>Marion</p>
-                    <p>Mohand</p>
-                    <p>Nadir</p>
-                </div>
-                <div class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center">
-                    <p>Naïm</p>
-                    <p>Naïm D.</p>
-                    <p>Simon</p>
-                    <p>Sirène</p>
-                    <p>Elodie</p>
-                </div>
+            <div class="">
+              <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
             </div>
-            <div class="text-[64px] flex flex-row justify-center">
-                <a href="#" class="bg-blue-vert text-blue-fonce text-[47px] font-Karantina w-[350px] h-[70px] flex flex-row justify-center items-center drop-shadow-lg rounded-random-button hover:bg-blue-vert-fonce hover:text-fond ">Placer aléatoirement</a>
-             </div>
-        </section>
-
-        <!-- Plan Section -->
-        <section class="bg-fond" id="planSection">
-            <div class="flex flex-col items-center">
-                <h2 class="w-[90%] text-blue-fonce text-[64px] font-Karantina">Le Plan</h2>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="">
+              <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
             </div>
-
-            <div class="flex flex-row justify-center">
-                <!-- Col 1 -->
-                <div class="flex flex-row items-center gap-5">
-                    <div class="flex flex-col gap-[60px]">
-                        <div class="bg-Chair-left w-[138px] h-[123px]" id="7"></div>
-                        <div class="bg-Chair-left w-[138px] h-[123px]" id="8"></div>
-                        <div class="bg-Chair-left w-[138px] h-[123px]" id="9"></div>
-                    </div>
-                    <div class="flex flex-col">
-                        <div class="bg-Rectangle-col w-[150px] h-[366px]"></div>
-                        <div class="bg-Rectangle w-[150px] h-[155px]"></div>
-                    </div>
-                </div>
-                <!-- Col 2 -->
-                <div class="flex flex-col gap-[13.2rem]">
-                    <div class="flex flex-col gap-5">
-                        <div class="flex flex-row justify-center gap-10">
-                            <div class="bg-Chair-up w-[123px] h-[138px]" id="6"></div>
-                            <div class="bg-Chair-up w-[123px] h-[138px]" id="5"></div>
-                        </div>
-                        <div class="">
-                            <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-5">
-                        <div class="">
-                            <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
-                        </div>
-                        <div class="flex flex-row justify-center gap-10">
-                            <div class="bg-Chair-down w-[123px] h-[138px]" id="10"></div>
-                            <div class="bg-Chair-down w-[123px] h-[138px]" id="11"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Col 3 -->
-                <div class="flex flex-col justify-between">
-                    <div class="flex flex-col gap-5">
-                        <div class="flex flex-row justify-center gap-10">
-                            <div class="bg-Chair-up w-[123px] h-[138px]" id="4"></div>
-                            <div class="bg-Chair-up w-[123px] h-[138px]" id="3"></div>
-                        </div>
-                        <div class="">
-                            <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-5">
-                        <div class="">
-                            <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
-                        </div>
-                        <div class="flex flex-row justify-center gap-10">
-                            <div class="bg-Chair-down w-[123px] h-[138px]" id="12"></div>
-                            <div class="bg-Chair-down w-[123px] h-[138px]" id="13"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Col 4 -->
-                <div class="flex flex-col justify-between">
-                    <div class="flex flex-col gap-5">
-                        <div class="flex flex-row justify-center gap-10">
-                            <div class="bg-Chair-up w-[123px] h-[138px]" id="2"></div>
-                            <div class="bg-Chair-up w-[123px] h-[138px]" id="1"></div>
-                        </div>
-                        <div class="">
-                            <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-5">
-                        <div class="">
-                            <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
-                        </div>
-                        <div class="flex flex-row justify-center gap-10">
-                            <div class="bg-Chair-down w-[123px] h-[138px]" id="14"></div>
-                            <div class="bg-Chair-down w-[123px] h-[138px]" id="15"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="flex flex-row justify-center gap-10">
+              <div
+                class="bg-Chair-down w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="10"
+              ></div>
+              <div
+                class="bg-Chair-down w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="11"
+              ></div>
             </div>
-<footer class="bg-blue-vert-fonce h-[14vh] mt-[5rem] flex items-center justify-end rounded-t-header-lg font-Karantina text-white text-[40px] pr-12">
-
-    © Ahmed - Elodie
-
-
-</footer>
-
-
-        </section>
-
-        
-
-        
-    </main>
-
-</body>
-
+          </div>
+        </div>
+        <!-- Col 3 -->
+        <div class="flex flex-col justify-between">
+          <div class="flex flex-col gap-5">
+            <div class="flex flex-row justify-center gap-10">
+              <div
+                class="bg-Chair-up w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="4"
+              ></div>
+              <div
+                class="bg-Chair-up w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="3"
+              ></div>
+            </div>
+            <div class="">
+              <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="">
+              <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
+            </div>
+            <div class="flex flex-row justify-center gap-10">
+              <div
+                class="bg-Chair-down w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="12"
+              ></div>
+              <div
+                class="bg-Chair-down w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="13"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <!-- Col 4 -->
+        <div class="flex flex-col justify-between">
+          <div class="flex flex-col gap-5">
+            <div class="flex flex-row justify-center gap-10">
+              <div
+                class="bg-Chair-up w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="2"
+              ></div>
+              <div
+                class="bg-Chair-up w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="1"
+              ></div>
+            </div>
+            <div class="">
+              <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="">
+              <div class="bg-Rectangle-row w-[355px] h-[155px]"></div>
+            </div>
+            <div class="flex flex-row justify-center gap-10">
+              <div
+                class="bg-Chair-down w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="14"
+              ></div>
+              <div
+                class="bg-Chair-down w-[123px] h-[138px] flex flex-col justify-center text-center text-[28px] font-Kdam text-white"
+                id="15"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="bg-blue-vert-fonce h-[14vh] mt-[5rem] flex items-center justify-end rounded-t-header-lg font-Karantina text-white text-[40px] pr-12"
+      >
+        © Ahmed - Elodie
+      </footer>
+    </section>
+  </body>
 </html>
