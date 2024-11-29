@@ -10,7 +10,9 @@ module.exports = {
         'blue-vert': "#019387",
         'blue-vert-fonce': '#003632',
         'blue-fonce': '#011225',
-        'clair': '#1DDDBA'
+        'clair': '#1DDDBA',
+        'color-home': '#6C6767'
+
         
       },
       fontFamily: {
@@ -21,6 +23,9 @@ module.exports = {
         "header-lg": "50px",
         "students": "30px",
         "random-button": "50px"
+      },
+      backgroundImage: {
+        'bg-home': "url('/Images/istockphoto-1467601512-612x612.jpg')",
       }
     },
   },
