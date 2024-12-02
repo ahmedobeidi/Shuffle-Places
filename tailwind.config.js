@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html"
+    "./index.html",
+    "./js/**/*.js", // tous les fichiers JS dans le dossier 
   ],
+  
   theme: {
     extend: {
       colors: {
@@ -30,6 +32,16 @@ module.exports = {
         "Rectangle-col": "url('../Images/Rectangle-col.png')",
         "Rectangle-row": "url('../Images/Rectangle-row.png')",
         'bg-home': "url('../Images/istockphoto-1467601512-612x612.jpg')",
+      },
+      keyframes: {
+        // Créer une animation plus tard : "fadeIn" et la déclencher après
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 3s ease-in-out',
       },
     },
   },
