@@ -12,40 +12,39 @@
 </head>
 
 <body>
-  <div class="relative h-screen">
-    <!-- Couleur avec opacité -->
+  <section class="relative h-screen">
+    <!-- couleur avec opacité -->
     <div class="absolute inset-0 bg-color-home opacity-70 z-0"></div>
-
-    <!-- Image avec opacité -->
+  
+    <!--  image avec opacité -->
     <div class="absolute inset-0 bg-bg-home bg-cover bg-center opacity-30 z-0"></div>
-
+  
     <!-- NAV-bar et contenu -->
-    <header
-      class="bg-gradient-to-r from-clair to-blue-vert-fonce h-[14vh] flex items-center rounded-b-header-lg justify-between px-[5%] font-Karantina text-white relative z-10">
-      <!-- Titre isolé avec un alignement spécifique -->
-      <div class="text-center">
-        <h1 class="leading-none text-[64px]">
-          Shuffle<br />
-          <span>- Places -</span>
-        </h1>
-      </div>
-
-    </header>
-
-    <main class="relative z-10">
+    <div class="relative z-10">
+      <header
+        class="bg-gradient-to-r from-clair to-blue-vert-fonce h-[14vh] flex items-center rounded-b-header-lg justify-between px-[5%] font-Karantina text-white">
+        <h1 class="w-[50px] leading-none text-[64px] flex text-center">Shuffle Places</h1>
+        <div class="flex flex-row gap-[20%] text-right text-[54px] pr-[20%]">
+          <a href="#home" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Home</a>
+          <a href="#studentsSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Placer</a>
+          <a href="#planSection" class="hover:bg-blue-vert-fonce px-[20%] rounded-full">Plan</a>
+        </div>
+      </header>
+  
       <!-- SECTION 1 / Home -->
       <section class="h-[86vh] relative" id="home">
+        <!-- Logo au milieu gauche -->
         <div class="absolute left-0 top-1/2 transform -translate-y-1/2">
-          <img src="/Images/Logo.png" alt="Logo" class="h-auto w-auto" />
+          <img src="/Images/Logo.png" alt="Logo" class="h-auto w-auto">
         </div>
-
+  
         <div class="absolute right-0">
-          <img src="/Images/triangle-text.png" alt="Placer aléatoirement vos ennemis et vos amis"
-            class="h-auto w-auto" />
+            <img src="/Images/triangle-text.png" alt="Placer aléatoirement vos ennemis et vos amis" class="h-auto w-auto">
+          </div>
+          
         </div>
-      </section>
-
-  </div>
+    </div>
+  </section>
 
   <!-- Students Section -->
   <section class="bg-fond pt-[2rem] pb-[rem]" id="studentsSection">
