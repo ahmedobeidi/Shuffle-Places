@@ -68,7 +68,6 @@ function handleRandomButton() {
 
   for (let i = 0; i < randomList.length; i++) {
     const chair = document.getElementById(`${i + 1}`);
-    chair.classList.add("animate-spin");
     chair.textContent = randomList[i];
   }
   randomList = [];
