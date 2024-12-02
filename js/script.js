@@ -74,12 +74,4 @@ function handleRandomButton() {
   randomList = [];
 }
 
-
-function setPlaces() {
-  for (let i = 0; i < randomList.length; i++) {
-    const chair = document.getElementById(`${i + 1}`);
-    chair.textContent = stuendts[i];
-  }
-}
-
 //"Ahmed", "Ali", "Clément", "Hamza", "Jérémy", "Karl", "Mathias", "Marion", "Mohand", "Nadir", "Naïm", "Naïm D.", "Simon", "Sirène", "Elodie"
