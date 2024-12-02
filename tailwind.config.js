@@ -30,7 +30,6 @@ module.exports = {
         "Rectangle-col": "url('../Images/Rectangle-col.png')",
         "Rectangle-row": "url('../Images/Rectangle-row.png')",
         'bg-home': "url('/Images/istockphoto-1467601512-612x612.jpg')",
-
       }
     },
   },

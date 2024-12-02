@@ -73,43 +73,30 @@
           Les personnes à placer:
         </h2>
       </div>
-      <div
-        class="mt-10 flex flex-row justify-center gap-10 font-Kdam text-[32px] mb-[60px]"
-      >
-        <div
-          class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center"
-        >
-          <p>Ahmed</p>
-          <p>Ali</p>
-          <p>Clément</p>
-          <p>Hamza</p>
-          <p>Jérémy</p>
-        </div>
-        <div
-          class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center"
-        >
-          <p>Karl</p>
-          <p>Mathias</p>
-          <p>Marion</p>
-          <p>Mohand</p>
-          <p>Nadir</p>
-        </div>
-        <div
-          class="w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center"
-        >
-          <p>Naïm</p>
-          <p>Naïm D.</p>
-          <p>Simon</p>
-          <p>Sirène</p>
-          <p>Elodie</p>
-        </div>
+      <div class="mt-10 flex items-center justify-center gap-5"> 
+        <ul id="participants-list-1" class="font-Kdam text-[32px] w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center hidden"></ul>
+        <ul id="participants-list-2" class="font-Kdam text-[32px] w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center hidden"></ul>
+        <ul id="participants-list-3" class="font-Kdam text-[32px] w-[15%] py-5 bg-white bg-opacity-[23%] border-solid border-white border-opacity-30 border drop-shadow-lg rounded-students text-center hidden"></ul>
       </div>
-      <div class="mt-[60px] text-[64px] flex flex-row justify-center">
-        <a
-          id="randomButton" 
+      <div
+        class="mt-[60px] text-[64px] flex flex-col justify-center items-center gap-5"
+      >
+        <input
+          type="text"
+          class="drop-shadow-lg rounded-students"
+          id="textinput"
+        />
+        <div class="flex gap-10">  <a
+          id="addButton"
           class="bg-blue-vert text-blue-fonce text-[47px] font-Karantina w-[350px] h-[70px] flex flex-row justify-center items-center drop-shadow-lg rounded-random-button hover:bg-blue-vert-fonce hover:text-fond"
-          >Placer aléatoirement</a
+          >Ajouter un nom</a
         >
+        <a
+        id="randomButton"
+        class="bg-blue-vert text-blue-fonce text-[47px] font-Karantina w-[350px] h-[70px] flex flex-row justify-center items-center drop-shadow-lg rounded-random-button hover:bg-blue-vert-fonce hover:text-fond"
+        >Placer aléatoirement</a
+      ></div>
+      
       </div>
     </section>
 
